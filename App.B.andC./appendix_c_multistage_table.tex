@@ -1,0 +1,27 @@
+\begin{table}[!ht]
+\centering
+\caption{Mean \ac{NPV} under common multistage-recourse evaluation}
+\label{tab:multistage_results}
+\renewcommand{\arraystretch}{0.9}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l c c c c}
+\toprule
+\textbf{Design}
+& \textbf{Case 1: Stability}
+& \textbf{Case 2: SVD}
+& \textbf{Case 3: SC}
+& \textbf{Case 4: SCVD} \\
+\midrule
+Multistage stochastic & 214.6 & 206.5 & 189.1 & 175.7 \\
+Two-stage multi-period (multistage recourse) & 210.8 & 203.8 & 188.4 & 173.5 \\
+Two-stage start-period (multistage recourse) & 210.4 & 203.8 & 180.5 & 158.1 \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}
+\raggedright
+\tiny
+\item Notes: Values are probability-weighted expected NPV over the common scenario-tree paths and are shown in thousands (\$K). All designs are evaluated under the same fully flexible operational-recourse environment, without the post-investment frozen-share constraints.
+\end{tablenotes}
+\end{table}

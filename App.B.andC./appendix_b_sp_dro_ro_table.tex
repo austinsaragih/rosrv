@@ -1,0 +1,42 @@
+\begin{table}[!ht]
+\centering
+\caption{Performance of SP, DRO, and RO designs under SP, DRO, and RO evaluation environments}
+\label{tab:sp_dro_ro_results}
+\renewcommand{\arraystretch}{0.9}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l ccc ccc ccc ccc}
+\toprule
+\multirow{2}{*}{\textbf{Design}}
+& \multicolumn{3}{c}{\textbf{Case 1: Stability}}
+& \multicolumn{3}{c}{\textbf{Case 2: SVD}}
+& \multicolumn{3}{c}{\textbf{Case 3: SC}}
+& \multicolumn{3}{c}{\textbf{Case 4: SCVD}} \\
+\cmidrule(lr){2-4}
+\cmidrule(lr){5-7}
+\cmidrule(lr){8-10}
+\cmidrule(lr){11-13}
+& \textbf{SP} & \textbf{DRO} & \textbf{RO}
+& \textbf{SP} & \textbf{DRO} & \textbf{RO}
+& \textbf{SP} & \textbf{DRO} & \textbf{RO}
+& \textbf{SP} & \textbf{DRO} & \textbf{RO} \\
+\midrule
+Multi-period & 210.60 & 207.98 & 183.99 & 202.33 & 198.49 & 180.19 & 188.23 & 183.67 & 158.92 & 170.66 & 167.88 & 151.00 \\
+Start-period & 210.24 & 207.62 & 183.46 & 202.33 & 198.49 & 180.19 & 180.50 & 179.95 & 170.75 & 158.36 & 155.55 & 149.38 \\
+Long-chain & 210.24 & 207.57 & 183.46 & 202.35 & 198.38 & 180.19 & 166.09 & 161.25 & 139.74 & 155.83 & 152.17 & 139.29 \\
+Decision-rule & 205.17 & 203.19 & \textbf{187.46} & 187.27 & 183.41 & 150.13 & 178.57 & 175.23 & 156.20 & 148.63 & 145.99 & 116.98 \\
+Perfect Information & \textbf{214.21} & \textbf{211.13} & \textbf{187.46} & \textbf{205.68} & \textbf{201.56} & \textbf{184.19} & \textbf{190.38} & \textbf{185.99} & \textbf{171.33} & \textbf{177.16} & \textbf{173.20} & \textbf{152.49} \\
+\midrule
+Start-period RO & 208.92 & 205.97 & \textbf{187.46} & 199.83 & 195.69 & \textbf{184.19} & 180.49 & 179.93 & 170.75 & 158.18 & 155.34 & 149.38 \\
+Multi-period RO & 208.92 & 205.97 & \textbf{187.46} & 199.83 & 195.69 & \textbf{184.19} & 181.07 & 180.52 & \textbf{171.33} & 169.51 & 166.18 & \textbf{152.49} \\
+Start-period DRO & 210.24 & 207.62 & 183.46 & 202.33 & 198.49 & 180.19 & 180.50 & 179.95 & 170.75 & 158.32 & 155.56 & 149.38 \\
+Multi-period DRO & 210.60 & 207.98 & 183.99 & 202.33 & 198.49 & 180.19 & 188.23 & 183.67 & 158.92 & 171.18 & 168.22 & 150.94 \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}
+\raggedright
+\tiny
+\item Notes: Values are shown in thousands (\$K). SP reports expected NPV under the common 81-state evaluation used in the main numerical study. DRO reports each policy's worst-case expected NPV over the 40-scenario ambiguity-set support. RO reports NPV under the common single severe stress scenario.
+\end{tablenotes}
+\end{table}
