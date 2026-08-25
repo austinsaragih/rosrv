@@ -1,0 +1,22 @@
+Machine,Product,Segment
+Machine 1,Decline 1,Decline
+Machine 1,Decline 2,Decline
+Machine 2,Growth 1,Growth
+Machine 2,Mature 1,Mature
+Machine 2,Decline 3,Decline
+Machine 2,Growth 2,Growth
+Machine 2,Mature 2,Mature
+Machine 2,Growth 3,Growth
+Machine 2,Growth 4,Growth
+Machine 3,Decline 4,Decline
+Machine 3,Decline 5,Decline
+Machine 4,Growth 5,Growth
+Machine 4,Growth 6,Growth
+Machine 4,Growth 7,Growth
+Machine 4,Growth 3,Growth
+Machine 4,Growth 8,Growth
+Machine 5,Decline 5,Decline
+Machine 5,Mature 3,Mature
+Machine 5,Mature 4,Mature
+Machine 5,Mature 2,Mature
+Machine 5,Growth 9,Growth
